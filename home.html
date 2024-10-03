@@ -9,19 +9,27 @@
     <link rel="stylesheet" href="./assents/css/style.css">
 </head>
 
-<body>
+<body onresize="olhaPixels()">
+    
     <header>
         <h1>RAPOSAS CURIOSAS</h1>
     </header>
-    <nav>
-        <a href="index.html"><img src="./assents/homeicon.png.png" id="icons"></a>
-        <a href="home.html"><img src="./assents/abouticon.png.png" id="icons"></a>
-        <a href="pagina03.html"><img src="./assents/clienticon.png.png" id="icons"></a>
-        <a href="pagina04.html"><img src="./assents/networkicon.png.png" id="icons"></a>
-    </nav>
-    <Main>
-        <div class="conteiner">
-            <img src="./assents/Raposa2.png" alt="Raposa em uma cadeira, descansando" width="250" height="250" id="imgmain">
+    
+    <span id="options" class="symbols-burgers"  onclick="clickBurger()">
+        menu
+    </span>
+
+    <menu id="icons">
+        <ul>
+            <li><a href="index.html"><img src="./assents/homeicon.png.png"></a></li>
+            <li><a href="home.html"><img src="./assents/abouticon.png.png"></a></li>
+            <li><a href="pagina03.html"><img src="./assents/clienticon.png.png"></a></li>
+            <li><a href="pagina04.html"><img src="./assents/networkicon.png.png"></a></li>    
+        </ul>
+    </menu>
+    
+    <main>
+<!-- imagem aqui -->
             <p>
                 História Sobre Raposas
                 <!--colocar o texto dentro deste <p>-->
@@ -63,7 +71,7 @@
 
         </div>
 
-    </Main>
+    </main>
 
     <footer>
         @Erik-PS 2024
