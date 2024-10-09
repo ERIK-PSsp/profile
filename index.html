@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RAPOSAS-CURIOSAS</title>
-    <link rel="shortcut icon" href="./assents/raposaicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assents/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./assents/css/style.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
-<body onresize="olhaPixels()"></body>
+<body onresize="mudouTamanho()">
 <header>
     <h1>RAPOSAS CURIOSAS</h1>
 </header>
-<span id="options" class="material-symbols-outlined" onclick="clickOpcoes()">
+
+<span id="options" class="material-symbols-outlined" onclick="clickMenu()">
     menu
 </span>
 
@@ -28,13 +29,13 @@
 
     </ul>
 </menu>
-<main>
+<main div="content">
 
     <img src="./assents/Raposa1.png" alt="Raposa deitada no chão, descansando" width="150" height="150" id="mobile">
     <img src="./assents/Raposa2.png" alt="Raposa em uma cadeira, descansando" width="150" height="150" id="mobile">
     <img src="./assents/Raposa3.png" alt="Raposa em lagoa" width="300" height="300" id="computador">
     <img src="./assents/Raposa4.png" alt="Raposa em mata aberta" width="300" height="300" id="computador">
-
+</div>
     <article>
 
         <h2>Texto Informativo sobre Raposas</h2>
@@ -63,13 +64,12 @@
 </main>
 <footer>
 
-    <p> @Erik-PS 2024 </p>
+    <p>@Erik-PS 2024</p>
 
 </footer>
 
-<script src="./assents/js/script.js">
-</script>
-
 </body>
+
+<script src="./assents/js/scriptmq.js"></script>
 
 </html>
