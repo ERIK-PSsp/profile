@@ -13,6 +13,7 @@ html {
 }
 
 body {
+    
     background-image: linear-gradient(to bottom,  #e5b56c, #fbbbbb);
     background-position: top;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Trebuchet MS', sans-serif;
@@ -59,7 +60,7 @@ menu {
     width: 90vw;
     margin: auto;
     display: none;
-    border-radius: 2px 2px 20px 20px;
+    border-radius: 2px 2px 2px 2px;
     width: 70vw;
 }
 
@@ -89,7 +90,7 @@ main {
     padding: 5px;
     margin: auto;
     margin-top: 2vw;
-    border-radius: 8px 8px 7px 7px;
+    border-radius: 8px 8px 0px 0px;
 }
 
 img{
@@ -108,14 +109,13 @@ article>p {
     text-indent: 18px;
 }
 footer {
-    background-color: rgba(226, 226, 190, 0.719);
     text-align: center;
     border-radius: 0vw 0vw 5vw 5vw;
     width: 90vw;
     padding: 7px;
     margin: auto;
     color: rgb(0, 0, 0);
-    background-image: linear-gradient(to  bottom, #ff000079, #fbf70068);
+    background-color:  #fbf70036;
 
 }
 
@@ -129,51 +129,103 @@ img#computador{
 
 @media screen and (min-width: 763px) and  (max-width: 973px) {
     body {
-        background-color: #ad5d20;
-        color: rgb(255, 0, 0);
-        display: flexbox;
+    
+        background-image: linear-gradient(to bottom,  #e5b56c, #fbbbbb);
+        background-position: top;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Trebuchet MS', sans-serif;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
     }
     
     header {
-        background-color: #fcf0b4;
-        height: 60px;
-        padding: 5px;
-        justify-content: center;
+        background-color: #ff770077;
+        border-radius: 3px 100px 3px 100px;
+        width: 70vw;
+        margin: auto;
     }
     
-    h1 {
-        color: rgb(131, 132, 94);
-        font-size: 50px;
+    header>h1 {
+        color: rgb(0, 0, 0);
         text-align: center;
-    }
-    
-    nav {
         padding: 15px;
-        background-color: #37c2a4;
+        text-shadow: #ff00004b  3px 3px 0px;
+        margin-top: 2vw;
+    }
+    #options {
+        display: none;
+    }
+    
+    menu {
+        color: #723434;
         text-align: center;
-        vertical-align: middle;
-        height: 170px;
+        background-color: #e29c6a00;
+        list-style-type: none;
+        width: 90vw;
+        margin: auto;
+        display: block;
+        border-radius: 2px 2px 2px 2px;
+        width: 70vw;
+    }
+    
+    menu>ul {
+        list-style-type: none;
+    }
+    
+    menu>ul>li>a {
+        display: block;
+        padding: 4vw;
+        text-decoration: none;
+        text-align: center;
+        background-color: rgba(203, 153, 59, 0.626);
+        border-radius: 0px  0px 0px 0px;
+        color: rgb(26, 1, 1);
+        margin: auto;
+    }
+    
+    menu>ul>li>a:hover {
+        background-color: #94762cb1;
+        color: #54084fd4;
     }
     
     main {
         background-color: rgb(255, 253, 220);
-        height: auto;
+        width: 90vw;
         padding: 5px;
+        margin: auto;
+        margin-top: 2vw;
+        border-radius: 8px 8px 0px 0px;
     }
     
+    img{
+        width: 50%;
+        align-items: center;
+        margin: auto;
+    }
+    
+    article>h2 {
+        padding-bottom: 2vw;
+    }
+    
+    article>p {
+        text-align: justify;
+        margin-bottom: 2vw;
+        text-indent: 18px;
+    }
     footer {
-        background-color: rgb(150, 166, 139);
         text-align: center;
-        vertical-align: center;
-        height: 85px;
-        padding: 17px;
-        color: rgb(34, 20, 2);
+        border-radius: 0vw 0vw 5vw 5vw;
+        width: 90vw;
+        padding: 7px;
+        margin: auto;
+        color: rgb(0, 0, 0);
+        background-color:  #fbf70036;
+    
     }
     
     img#mobile{
         display: block;
     }
-
+    
     img#computador{
         display: none;
     }
@@ -181,55 +233,75 @@ img#computador{
 
 @media screen and (min-width: 974px) {
     body {
-        background-color: #ad5d20;
-        color: rgb(255, 0, 0);
-        display: flexbox;
+    
+        background-image: linear-gradient(to bottom,  #e5b56c, #fbbbbb);
+        background-position: top;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Trebuchet MS', sans-serif;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
     }
     
     header {
-        background-color: #ffd500;
-        height: 60px;
-        padding: 5px;
-        justify-content: center;
+        background-color: #ff770077;
+        border-radius: 3px 100px 3px 100px;
+        width: 70vw;
+        margin: auto;
     }
     
-    h1 {
-        color: rgb(131, 132, 94);
-        font-size: 50px;
+    header>h1 {
+        color: rgb(0, 0, 0);
         text-align: center;
-    }
-    
-    nav {
         padding: 15px;
-        background-color: #37c2a4;
-        text-align: center;
-        vertical-align: middle;
-        height: 170px;
+        text-shadow: #ff00004b  3px 3px 0px;
+        margin-top: 2vw;
+    }
+    #options {
+        display: none;
+    }
+    
+    menu {
+        display: block;
     }
     
     main {
         background-color: rgb(255, 253, 220);
-        height: auto;
+        width: 90vw;
         padding: 5px;
+        margin: auto;
+        margin-top: 2vw;
+        border-radius: 8px 8px 0px 0px;
     }
     
+    img{
+        width: 50%;
+        align-items: center;
+        margin: auto;
+    }
+    
+    article>h2 {
+        padding-bottom: 2vw;
+    }
+    
+    article>p {
+        text-align: justify;
+        margin-bottom: 2vw;
+        text-indent: 18px;
+    }
     footer {
-        background-color: rgb(150, 166, 139);
         text-align: center;
-        vertical-align: center;
-        height: 85px;
-        padding: 17px;
-        color: rgb(34, 20, 2);
+        border-radius: 0vw 0vw 5vw 5vw;
+        width: 90vw;
+        padding: 7px;
+        margin: auto;
+        color: rgb(0, 0, 0);
+        background-color:  #fbf70036;
+    
     }
     
     img#mobile{
         display: none;
     }
-
-    img#tablet{
-        display: none;
-    }
-
+    
     img#computador{
         display: block;
     }
