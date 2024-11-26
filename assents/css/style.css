@@ -68,6 +68,7 @@ menu>ul {
     list-style-type: none;
 }
 
+
 menu>ul>li>a {
     display: block;
     padding: 4vw;
@@ -139,8 +140,8 @@ img#computador{
     
     header {
         background-color: #ff770077;
-        border-radius: 3px 100px 3px 100px;
-        width: 70vw;
+        border-radius: 3px 0px 3px 0px;
+        width: 80vw;
         margin: auto;
     }
     
@@ -157,28 +158,28 @@ img#computador{
     
     menu {
         color: #723434;
-        text-align: center;
-        background-color: #e29c6a00;
-        list-style-type: none;
-        width: 90vw;
-        margin: auto;
-        display: block;
+        display: flex;
+        background-color: #d49322ec;
+        height: 5vw;
+        justify-content: space-between;
         border-radius: 0px 0px 0px 0px;
-        width: 70vw;
+        width: 80vw;
     }
     
     menu>ul {
         list-style-type: none;
     }
+    menu>ul>li {
+        display: inline-block;
+    }
     
     menu>ul>li>a {
         display: block;
-        padding: 4vw;
+        padding: 1vw;
         text-decoration: none;
-        text-align: center;
-        background-color: rgba(203, 153, 59, 0.626);
+        background-color: #d49322ec;
         border-radius: 0px  0px 0px 0px;
-        color: rgb(26, 1, 1);
+        color: rgb(0, 0, 0);
         margin: auto;
     }
     
@@ -189,11 +190,11 @@ img#computador{
     
     main {
         background-color: rgb(255, 253, 220);
-        width: 90vw;
+        width: 80vw;
         padding: 5px;
         margin: auto;
         margin-top: 2vw;
-        border-radius: 8px 8px 0px 0px;
+        border-radius: 0px 0px 0px 0px;
     }
     
     img{
@@ -214,7 +215,7 @@ img#computador{
     footer {
         text-align: center;
         border-radius: 0vw 0vw 5vw 5vw;
-        width: 90vw;
+        width: 80vw;
         padding: 7px;
         margin: auto;
         color: rgb(0, 0, 0);
