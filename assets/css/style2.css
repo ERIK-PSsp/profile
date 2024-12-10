@@ -273,9 +273,9 @@ img#computador{
         color: #723434;
         display: flex;
         background-color: #fcd277;
-        height: 10vw;
+        height: auto;
         border-radius: 0px 0px 0px 0px;
-        width: 21.3vw;
+        width: 22vw;
     }
     
     menu>ul {
