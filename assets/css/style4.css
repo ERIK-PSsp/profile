@@ -23,8 +23,8 @@ body {
 
 header {
     background-color: #ff770077;
-    border-radius: 3px 100px 3px 100px;
-    width: 70vw;
+    border-radius: 100px 100px 100px 100px;
+    width: 7vw;
     margin: auto;
 }
 
@@ -265,16 +265,15 @@ img#computador{
     }
     
     header {
-        background-color: #ff770000;
+        background-color: #ea842a;
     }
     
     header>h1 {
         color: rgb(0, 0, 0);
-        text-align: center;
         font-size: 7vw;
-        padding: 15px;
+        padding: auto;
         text-shadow: #ff00004b  3px 3px 0px;
-        margin-top: 2vw;
+        margin-top: auto;
     }
     #options {
         display: none;
@@ -287,9 +286,9 @@ img#computador{
         color: #723434;
         display: flex;
         background-color: #fcd277;
-        height: 8.4vw;
+        height: auto;
         border-radius: 0px 0px 0px 0px;
-        width: 15.9vw;
+        width: 22vw;
     }
     
     menu>ul {
